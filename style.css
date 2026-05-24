@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+/*Background*/
+
+body{
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container{
+    width: 90%;
+    max-width: 500px;
+}
+
+.screen{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0,0, 0.2);
+    text-align: center;
+}
+ /* hide screen */
+
+ .hidden{
+    display: none;
+ }
+
+ /* active screen */
+
+ .active{
+    display: block;
+ }
+
+ /* start screen */
+
+ #start-screen{
+    font-size: 28 px;
+    margin-bottom: 10px;
+    color: #333;
+ }
+
+ #start-screen p{
+    margin-bottom: 20px;
+    color: #666;
+ }
+
+ /* button style */
+
+ button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #4f46e5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ button:hover{
+    background-color: #3730a3;
+ }
+
+ /* Quiz-Header */
+
+ .quiz-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+ }
+
+ /* Question */
+
+ #question-text{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #111;
+ }
+
+ /* Options */
+
+ #options-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ /* Options button */
+
+ .option{
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #f9f9f9;
+ }
+
+ .option:hover{
+    background: #eee;
+ }
+
+ /*correct answer */
+
+ .option.correct{
+    background : #22c55e;
+    color: white;
+    border-color: #16a34a;
+ }
+
+ /* wrong answer */
+
+ .option.wrong{
+    background: #ef4444;
+    color: white;
+    border-color: #dc2626;
+ }
+
+ /*footer */
+
+ .quiz-footer{
+    margin-top: 20px;
+ }
+
+ /* score box */
+
+ #score-box{
+    margin-top: 15px;
+    font-weight: bold;
+    color:#333;
+ }
+
+ /*result screen */
+ 
+ #result-screen h1{
+    margin-bottom: 15px;
+ }
+
+ #final-score{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
