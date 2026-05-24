@@ -1,53 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Master App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
     <div class="app-container">
 
-        <!--Start Screen-->
+      <!-- START SCREEN -->
+      <div id="start-screen" class="screen">
+        <h1>Quiz Master App</h1>
+        <p>Test your knowledge with timed questions</p>
+        <button id="start-btn">Start Quiz</button>
+      </div>
 
-        <div id="start-screen" class="screen alive">
-            <h1>Quiz Master App</h1>
-            <p>Test your knowledge with timed questions</p>
-            <button id="start-btn">Start Quiz</button>
-        </div>
-      
-        <!--Quiz Screen-->
+      <!-- QUIZ SCREEN -->
+      <div id="quiz-screen" class="screen hidden">
 
-        <div id="quiz-screen" class="screen hidden">
+        <div id="quiz-header">
+          <div id="question-number">Question 1/10</div>
+          <div id="timer">Time: 10</div>
 
-            <div id="quiz-header" >
-                <div class="question-number">Question 1/10</div>
-                <div class="timer">Time : 15</div>
-            </div>
-
-            <div class="quiz-body">
-                <h2 class="question-text">Question text will appear here</h2>
-                <div class="options-container"></div>
-            </div>
-
-            <div class="quiz-footer">
-                <button id="next-btn"></button>
-            </div>
-
-            <div id="score-box">
-                Score: 0
-            </div>
+          <div class="progress-container">
+            <div id="progress-bar"></div>
+          </div>
         </div>
 
-        <!--Result Screen-->
-
-        <div id="result-screen" class="screen hidden">
-            <h1>Quiz Completed 🎉</h1>
-            <p id="final-score">Your Score: 0</p>
-            <button id="restart-btn">Restart Quiz</button>
+        <div class="quiz-body">
+          <h2 id="question-text"></h2>
+          <div class="options-container"></div>
         </div>
+
+        <div class="quiz-footer">
+          <button id="next-btn">Next</button>
+        </div>
+
+        <div id="score-box">Score: 0</div>
+      </div>
+
+      <!-- RESULT SCREEN -->
+      <div id="result-screen" class="screen hidden">
+        <h1>Quiz Completed 🎉</h1>
+        <p id="final-score"></p>
+        <button id="restart-btn">Restart Quiz</button>
+      </div>
+
     </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
