@@ -63,6 +63,61 @@ const questions = [
     question: "What color card means a player is sent off?",
     options: ["Green card", "Blue card", "Red card", "Yellow card"],
     answer: "Red card"
+  },
+   {
+    question: "Which country won the 2022 FIFA World Cup?",
+    options: ["France", "Brazil", "Argentina", "Croatia"],
+    answer: "Argentina"
+  },
+  {
+    question: "Which position mainly protects the goal?",
+    options: ["Defender", "Midfielder", "Goalkeeper", "Striker"],
+    answer: "Goalkeeper"
+  },
+  {
+    question: "How many points does a team get for a win?",
+    options: ["1", "2", "3", "4"],
+    answer: "3"
+  },
+  {
+    question: "Which club did Lionel Messi play for most of his career?",
+    options: ["PSG", "Barcelona", "Manchester City", "Chelsea"],
+    answer: "Barcelona"
+  },
+  {
+    question: "Which country won the first FIFA World Cup in 1930?",
+    options: ["Brazil", "Germany", "Uruguay", "Italy"],
+    answer: "Uruguay"
+  },
+  {
+    question: "What is the name of the football championship in England?",
+    options: ["La Liga", "Serie A", "Bundesliga", "Premier League"],
+    answer: "Premier League"
+  },
+  {
+    question: "Who scored the famous 'Hand of God' goal?",
+    options: ["Pelé", "Maradona", "Messi", "Ronaldo"],
+    answer: "Maradona"
+  },
+  {
+    question: "Which country has won the most FIFA World Cups?",
+    options: ["Germany", "Italy", "Argentina", "Brazil"],
+    answer: "Brazil"
+  },
+  {
+    question: "Which player is famous for the number 10 jersey?",
+    options: ["Messi", "Mbappé", "Van Dijk", "Modrić"],
+    answer: "Messi"
+  },
+  {
+    question: "What is awarded to the best player in a World Cup?",
+    options: ["Golden Ball", "Golden Boot", "Silver Cup", "Super Ball"],
+    answer: "Golden Ball"
+  },
+  {
+    question: "Which country is Cristiano Ronaldo from?",
+    options: ["Spain", "Portugal", "Brazil", "Argentina"],
+    answer: "Portugal"
   }
 ];
 
