@@ -20,106 +20,152 @@ const questions = [
     answer: "11"
   },
   {
-    question: "Which country won 2018 FIFA World Cup?",
+    question: "Which country won the 2018 FIFA World Cup?",
     options: ["Germany", "Brazil", "France", "Argentina"],
     answer: "France"
   },
   {
-    question: "Who is the GOAT of Football?",
+    question: "Who is widely known as the GOAT of football?",
     options: ["Ronaldo", "Maradona", "Pelé", "Messi"],
     answer: "Messi"
   },
-    {
+  {
     question: "What is the duration of a standard football match?",
-    options: ["60 minutes", "70 minutes", "80 minutes", "90 minutes"],
+    options: ["60 minutes", "75 minutes", "90 minutes", "120 minutes"],
     answer: "90 minutes"
   },
   {
     question: "Which country hosted the 2022 FIFA World Cup?",
-    options: ["Russia", "Qatar", "Brazil", "South Africa"],
+    options: ["Qatar", "Russia", "Brazil", "South Africa"],
     answer: "Qatar"
   },
   {
-    question: "What is the term for when a player scores 3 goals in a match?",
-    options: ["Double", "Hat-trick", "Triple kick", "Super goal"],
+    question: "What is it called when a player scores 3 goals in one match?",
+    options: ["Hat-trick", "Triple goal", "Mega goal", "Power shot"],
     answer: "Hat-trick"
   },
   {
-    question: "Which player is famously known as 'CR7'?",
-    options: ["Cristiano Ronaldo", "Neymar Jr", "Kylian Mbappé", "Luka Modrić"],
+    question: "Which player is known as CR7?",
+    options: ["Messi", "Cristiano Ronaldo", "Neymar", "Mbappé"],
     answer: "Cristiano Ronaldo"
   },
   {
-    question: "What is the maximum number of substitutions allowed in most modern professional football matches?",
+    question: "How many substitutions are allowed in modern football?",
     options: ["3", "4", "5", "6"],
     answer: "5"
   },
   {
     question: "Which country has won the most FIFA World Cups?",
-    options: ["Germany", "Brazil", "Italy", "Argentina"],
+    options: ["Brazil", "Germany", "Italy", "Argentina"],
     answer: "Brazil"
   },
   {
     question: "What color card means a player is sent off?",
-    options: ["Green card", "Blue card", "Red card", "Yellow card"],
-    answer: "Red card"
+    options: ["Yellow", "Blue", "Red", "Green"],
+    answer: "Red"
   },
-   {
+  {
     question: "Which country won the 2022 FIFA World Cup?",
-    options: ["France", "Brazil", "Argentina", "Croatia"],
+    options: ["France", "Brazil", "Argentina", "Portugal"],
     answer: "Argentina"
   },
   {
-    question: "Which position mainly protects the goal?",
-    options: ["Defender", "Midfielder", "Goalkeeper", "Striker"],
+    question: "Which position is responsible for stopping goals?",
+    options: ["Striker", "Midfielder", "Goalkeeper", "Winger"],
     answer: "Goalkeeper"
   },
   {
-    question: "How many points does a team get for a win?",
+    question: "How many points for a win in football leagues?",
     options: ["1", "2", "3", "4"],
     answer: "3"
   },
   {
-    question: "Which club did Lionel Messi play for most of his career?",
-    options: ["PSG", "Barcelona", "Manchester City", "Chelsea"],
+    question: "Which club did Messi spend most of his career at?",
+    options: ["PSG", "Barcelona", "Inter Miami", "Chelsea"],
     answer: "Barcelona"
   },
   {
-    question: "Which country won the first FIFA World Cup in 1930?",
+    question: "Which country won the first FIFA World Cup?",
     options: ["Brazil", "Germany", "Uruguay", "Italy"],
     answer: "Uruguay"
   },
   {
-    question: "What is the name of the football championship in England?",
-    options: ["La Liga", "Serie A", "Bundesliga", "Premier League"],
+    question: "What is the top football league in England called?",
+    options: ["La Liga", "Serie A", "Premier League", "Bundesliga"],
     answer: "Premier League"
   },
   {
-    question: "Who scored the famous 'Hand of God' goal?",
+    question: "Who scored the 'Hand of God' goal?",
     options: ["Pelé", "Maradona", "Messi", "Ronaldo"],
     answer: "Maradona"
   },
   {
-    question: "Which country has won the most FIFA World Cups?",
-    options: ["Germany", "Italy", "Argentina", "Brazil"],
+    question: "Which country has won 5 World Cups?",
+    options: ["Germany", "Argentina", "Brazil", "Italy"],
     answer: "Brazil"
   },
   {
-    question: "Which player is famous for the number 10 jersey?",
-    options: ["Messi", "Mbappé", "Van Dijk", "Modrić"],
-    answer: "Messi"
+    question: "Which jersey number is associated with playmakers like Messi?",
+    options: ["7", "9", "10", "11"],
+    answer: "10"
   },
   {
-    question: "What is awarded to the best player in a World Cup?",
-    options: ["Golden Ball", "Golden Boot", "Silver Cup", "Super Ball"],
-    answer: "Golden Ball"
+    question: "What trophy is given to the World Cup winner?",
+    options: ["Golden Boot", "World Cup Trophy", "Champions Cup", "Silver Cup"],
+    answer: "World Cup Trophy"
   },
   {
-    question: "Which country is Cristiano Ronaldo from?",
+    question: "Cristiano Ronaldo is from which country?",
     options: ["Spain", "Portugal", "Brazil", "Argentina"],
     answer: "Portugal"
+  },
+  {
+    question: "Which club is known as Real Madrid's rival?",
+    options: ["Liverpool", "Barcelona", "Manchester City", "Juventus"],
+    answer: "Barcelona"
+  },
+  {
+    question: "What is a football pitch called in professional terms?",
+    options: ["Court", "Field", "Pitch", "Arena"],
+    answer: "Pitch"
+  },
+  {
+    question: "Which country won Euro 2016?",
+    options: ["Germany", "France", "Portugal", "Spain"],
+    answer: "Portugal"
+  },
+  {
+    question: "What happens when a match is tied in knockout stage?",
+    options: ["Extra time", "Replay", "Draw", "Cancel"],
+    answer: "Extra time"
+  },
+  {
+    question: "Which football club is based in Manchester?",
+    options: ["Liverpool", "Chelsea", "Manchester United", "Arsenal"],
+    answer: "Manchester United"
+  },
+  {
+    question: "What is the term for defending players?",
+    options: ["Attackers", "Defenders", "Strikers", "Wingers"],
+    answer: "Defenders"
+  },
+  {
+    question: "Which country is Neymar from?",
+    options: ["Argentina", "Brazil", "Portugal", "Spain"],
+    answer: "Brazil"
+  },
+  {
+    question: "What is offside in football?",
+    options: ["Foul", "Illegal position", "Goal", "Penalty"],
+    answer: "Illegal position"
+  },
+  {
+    question: "Which competition is for European national teams?",
+    options: ["Copa America", "World Cup", "Euro Cup", "Asian Cup"],
+    answer: "Euro Cup"
   }
 ];
+
 
 let current = 0;
 let score = 0;
